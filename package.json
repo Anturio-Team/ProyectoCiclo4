@@ -1,0 +1,19 @@
+{
+  "name": "proyectociclo4",
+  "version": "1.0.0",
+  "description": "Tienda de plantas y derivados",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anturio-Team/ProyectoCiclo4.git"
+  },
+  "author": "Anturio Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anturio-Team/ProyectoCiclo4/issues"
+  },
+  "homepage": "https://github.com/Anturio-Team/ProyectoCiclo4#readme"
+}
