@@ -41,7 +41,8 @@ const productosSchema=mongoose.Schema({
 				"Ramos con frutas",
                 "Floreros",
                 "Bouquets y cajas",
-                "Plantas"
+                "Plantas",
+                "Cajas"
             ]
         }
     },
