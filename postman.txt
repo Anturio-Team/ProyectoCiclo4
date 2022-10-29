@@ -1,0 +1,31 @@
+//Crear un nuevo producto
+POST 127.0.0.1:4000/api/producto/nuevo
+
+{
+    "nombre": "Caja de 12 rosas",
+    "precio": 90000,
+    "descripcion": "Caja de 12 rosas rojas con tallo largo calidad premium",
+    "calificacion": 5.0,
+    "imagen":[
+        {
+            "public_id": "productos/asdasdjhasdj",
+            "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fco.pinterest.com%2Ffloresmarcadasc%2Fcaja-de-rosas%2F&psig=AOvVaw2ekz6EI8Bcjg7eZeQXeEl3&ust=1667148766886000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCIiFvanzhfsCFQAAAAAdAAAAABAE"
+        }],
+    "categoria": "Cajas",
+    "inventario": 10,
+    "numCalificaciones": 0,
+    "opiniones":[]
+}
+
+//Lista de todos los productos
+GET 127.0.0.1:4000/api/productos
+
+//Actualizar un producto
+PUT 127.0.0.1:4000/api/producto/{ID Del producto tomado desde MongoDB}
+
+{
+        "precio" : 70000
+}
+
+//Borrar un producto de la base de datos
+DELETE 127.0.0.1:4000/api/producto/{ID Del producto tomado desde MongoDB}
