@@ -1,7 +1,7 @@
 {
-  "name": "vetyshop",
+  "name": "anturio",
   "version": "1.0.0",
-  "description": "Tienda virtual de productos para mascotas",
+  "description": "Floristeria virtual Anturio",
   "main": "server.js",
   "scripts": {
     "start": "node back/server.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OZZYTA/VetyShop.git"
+    "url": "git+https://github.com/Anturio-Team/ProyectoCiclo4.git"
   },
-  "author": "Natali Velasquez",
+  "author": "Equipo Anturio",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/OZZYTA/VetyShop/issues"
+    "url": "https://github.com/Anturio-Team/ProyectoCiclo4/issues"
   },
-  "homepage": "https://github.com/OZZYTA/VetyShop#readme",
+  "homepage": "https://github.com/Anturio-Team/ProyectoCiclo4/blob/development/README.md",
   "dependencies": {
     "dotenv": "^16.0.3",
     "express": "^4.18.1",

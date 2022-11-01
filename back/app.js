@@ -6,10 +6,12 @@ app.use(express.json());
 
 //importamos las rutas
 const productos=require("./routes/products")
-// const usuarios=require("./routes/auth")
+const ventas=require("./routes/sales")
+const cart=require("./routes/cart")
 
 app.use('/api',productos) 
-// app.use('/api',usuarios)
+app.use('/api',ventas) 
+app.use('/api',cart) 
 
 //manejo de errores en el middleware
 app.use(errorMiddleware)

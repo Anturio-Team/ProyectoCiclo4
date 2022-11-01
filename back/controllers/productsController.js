@@ -75,3 +75,17 @@ exports.newProduct=catchAsyncErrors(async(req,res,next)=>{
         product
     })
 })
+
+//Ver el listado de todos los productos con campos limitados
+exports.showProducts=catchAsyncErrors(async (req,res,next) =>{
+    const productos= await producto.find({}, {nombre:1,precio:1,descripcion:1,calificacion:1,imagen:1});
+    if (!productos){
+        return next(new ErrorHandler("No hay productos que mostrar", 404))
+    }
+
+    res.status(200).json({
+        success:true,
+        cantidad: productos.length,
+        productos
+    })
+})

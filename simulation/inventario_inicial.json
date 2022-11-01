@@ -1,0 +1,47 @@
+[
+    {
+        "nombre": "Ramo de prueba 2",
+        "precio": 180000,
+        "descripcion": "Este es un ramo de prueba",
+        "calificacion": 5.0,
+        "imagen":[
+            {
+                "public_id": "productos/asdasdjhasaa",
+                "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Ffotos-premium%2Fhermosos-ramos-flores-frescas-primavera_7495268.htm&psig=AOvVaw0_ZPYjWr55U7L2PDOq2Z-h&ust=1667147072582000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPDqtPzshfsCFQAAAAAdAAAAABAN"
+            }],
+        "categoria": "Ramos",
+        "inventario": 100,
+        "numCalificaciones": 1,
+        "opiniones":[]
+    },
+    {
+        "nombre": "Ramo de rosas rojas con canasta de frutas",
+        "precio": 250000,
+        "descripcion": "Ramo de 12 rosas rojas calidad premium con una canasta de frutas surtidas",
+        "calificacion": 5.0,
+        "imagen":[
+            {
+                "public_id": "productos/asdasdjhasde",
+                "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.floresencali.com%2Fproduct%2F1334%2F&psig=AOvVaw1rVQFPVJZFK_7a1ubPZSWQ&ust=1667230338513000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCPi-rZajiPsCFQAAAAAdAAAAABAD"
+            }],
+        "categoria": "Ramos con frutas",
+        "inventario": 5,
+        "numCalificaciones": 10,
+        "opiniones":[]
+    },
+    {
+        "nombre": "Ramo de flores con florero de vidrio",
+        "precio": 100000,
+        "descripcion": "Ramo de flores con florero de vidrio de 20 cms",
+        "calificacion": 5.0,
+        "imagen":[
+            {
+                "public_id": "productos/asdasdasd232",
+                "url": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.florescaliescali.com%2Ffloreros-rosas-gerberas%2F&psig=AOvVaw11hH1KsJ88ZWtqXKahDuU6&ust=1667230379968000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCKD89KmjiPsCFQAAAAAdAAAAABAD"
+            }],
+        "categoria": "Floreros",
+        "inventario": 5,
+        "numCalificaciones": 10,
+        "opiniones":[]
+    }
+]
